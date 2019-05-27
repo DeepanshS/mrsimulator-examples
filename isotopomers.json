@@ -4,22 +4,22 @@
             "sites": [
                 {
                     "isotope_symbol": "13C",
-                    "isotropic_chemical_shift": "1 ppm",
+                    "isotropic_chemical_shift": "1 Hz",
                     "shielding_symmetric": {
-                        "anisotropy": "-3.89 ppm",
+                        "anisotropy": "-3.89 kHz",
                         "asymmetry": 0.25
                     }
                 }
             ],
-            "abundance": "12%"
+            "abundance": "100 %"
         },
         {
             "sites": [
                 {
                     "isotope_symbol": "13C",
-                    "isotropic_chemical_shift": "1 ppm",
+                    "isotropic_chemical_shift": "1 kHz",
                     "shielding_symmetric": {
-                        "anisotropy": "8.2 ppm",
+                        "anisotropy": "8.2 kHz",
                         "asymmetry": 0.0
                     }
                 }
@@ -29,9 +29,9 @@
             "sites": [
                 {
                     "isotope_symbol": "1H",
-                    "isotropic_chemical_shift": "3 ppm",
+                    "isotropic_chemical_shift": "3 kHz",
                     "shielding_symmetric": {
-                        "anisotropy": "23.2 ppm",
+                        "anisotropy": "23.2 kHz",
                         "asymmetry": 0.0
                     }
                 }
@@ -41,9 +41,9 @@
             "sites": [
                 {
                     "isotope_symbol": "29Si",
-                    "isotropic_chemical_shift": "-110 ppm",
+                    "isotropic_chemical_shift": "1.64 kHz",
                     "shielding_symmetric": {
-                        "anisotropy": "7.36 ppm",
+                        "anisotropy": "7.36 kHz",
                         "asymmetry": 0.0
                     }
                 }
@@ -53,21 +53,9 @@
             "sites": [
                 {
                     "isotope_symbol": "29Si",
-                    "isotropic_chemical_shift": "-100 ppm",
+                    "isotropic_chemical_shift": "43 kHz",
                     "shielding_symmetric": {
-                        "anisotropy": "8.36 ppm",
-                        "asymmetry": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "sites": [
-                {
-                    "isotope_symbol": "29Si",
-                    "isotropic_chemical_shift": "-90 ppm",
-                    "shielding_symmetric": {
-                        "anisotropy": "6.36 ppm",
+                        "anisotropy": "8.36 kHz",
                         "asymmetry": 0.5
                     }
                 }
@@ -76,11 +64,23 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "1H",
-                    "isotropic_chemical_shift": "5.6 ppm",
+                    "isotope_symbol": "29Si",
+                    "isotropic_chemical_shift": "10 kHz",
                     "shielding_symmetric": {
-                        "anisotropy": "13.2 ppm",
-                        "asymmetry": 0.75
+                        "anisotropy": "6.36 kHz",
+                        "asymmetry": 0.0
+                    }
+                }
+            ]
+        },
+        {
+            "sites": [
+                {
+                    "isotope_symbol": "1H",
+                    "isotropic_chemical_shift": "5.6 kHz",
+                    "shielding_symmetric": {
+                        "anisotropy": "13.2 kHz",
+                        "asymmetry": 0.0
                     }
                 }
             ]
