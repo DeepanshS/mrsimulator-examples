@@ -3,7 +3,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "13C",
+                    "isotope": "13C",
                     "isotropic_chemical_shift": "1 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "-3.89 ppm",
@@ -16,7 +16,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "13C",
+                    "isotope": "13C",
                     "isotropic_chemical_shift": "1 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "8.2 ppm",
@@ -28,7 +28,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "1H",
+                    "isotope": "1H",
                     "isotropic_chemical_shift": "3 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "23.2 ppm",
@@ -40,7 +40,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "29Si",
+                    "isotope": "29Si",
                     "isotropic_chemical_shift": "-100 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "1.36 ppm",
@@ -52,7 +52,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "29Si",
+                    "isotope": "29Si",
                     "isotropic_chemical_shift": "-100 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "70.36 ppm",
@@ -64,7 +64,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "29Si",
+                    "isotope": "29Si",
                     "isotropic_chemical_shift": "-90 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "80.36 ppm",
@@ -76,7 +76,7 @@
         {
             "sites": [
                 {
-                    "isotope_symbol": "1H",
+                    "isotope": "1H",
                     "isotropic_chemical_shift": "5.6 ppm",
                     "shielding_symmetric": {
                         "anisotropy": "13.2 ppm",
