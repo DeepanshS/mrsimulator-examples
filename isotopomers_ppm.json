@@ -6,8 +6,8 @@
                     "isotope": "13C",
                     "isotropic_chemical_shift": "1 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "-3.89 ppm",
-                        "asymmetry": 0.25
+                        "zeta": "-3.89 ppm",
+                        "eta": 0.25
                     }
                 }
             ],
@@ -19,8 +19,8 @@
                     "isotope": "13C",
                     "isotropic_chemical_shift": "1 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "8.2 ppm",
-                        "asymmetry": 0.0
+                        "zeta": "8.2 ppm",
+                        "eta": 0.0
                     }
                 }
             ]
@@ -31,44 +31,47 @@
                     "isotope": "1H",
                     "isotropic_chemical_shift": "3 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "23.2 ppm",
-                        "asymmetry": 0.0
+                        "zeta": "23.2 ppm",
+                        "eta": 0.0
                     }
                 }
             ]
         },
         {
+            "name": "Q3",
             "sites": [
                 {
                     "isotope": "29Si",
                     "isotropic_chemical_shift": "-100 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "1.36 ppm",
-                        "asymmetry": 0.0
+                        "zeta": "1.36 ppm",
+                        "eta": 0.0
                     }
                 }
             ]
         },
         {
+            "name": "Q3",
             "sites": [
                 {
                     "isotope": "29Si",
                     "isotropic_chemical_shift": "-100 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "70.36 ppm",
-                        "asymmetry": 0.0
+                        "zeta": "70.36 ppm",
+                        "eta": 0.0
                     }
                 }
             ]
         },
         {
+            "name": "Q2",
             "sites": [
                 {
                     "isotope": "29Si",
                     "isotropic_chemical_shift": "-90 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "80.36 ppm",
-                        "asymmetry": 0.5
+                        "zeta": "80.36 ppm",
+                        "eta": 0.5
                     }
                 }
             ]
