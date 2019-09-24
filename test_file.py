@@ -2,6 +2,7 @@ from mrsimulator import Simulator, Isotopomer, SpectroscopicDimension
 from mrsimulator.methods import one_d_spectrum
 import matplotlib.pyplot as plt
 
+# setting isotopomers
 Isotopomers = [
     {
         "sites": [
@@ -15,6 +16,7 @@ Isotopomers = [
     }
 ]
 
+# static spectrum setup
 dimension = {
     "magnetic_flux_density": "9.4 T",
     "rotor_frequency": "0 kHz",
@@ -31,7 +33,7 @@ sim.spectrum = [SpectroscopicDimension.parse_dict_with_units(dimension)]
 
 freq1, amp1 = sim.run(one_d_spectrum, verbose=11)
 
-
+# magic angle spinning (MAS) spectrum setup
 dimension = {
     "magnetic_flux_density": "9.4 T",
     "rotor_frequency": "1 kHz",
@@ -45,6 +47,7 @@ dimension = {
 sim.spectrum = [SpectroscopicDimension.parse_dict_with_units(dimension)]
 freq2, amp2 = sim.run(one_d_spectrum, verbose=11)
 
+# plot of the two spectrum
 fig, ax = plt.subplots(1, 2, figsize=(6, 3))
 ax[0].plot(freq1, amp1, linewidth=1.0, color="k")
 ax[0].set_xlabel(f"frequency ratio / {freq2.unit}")
