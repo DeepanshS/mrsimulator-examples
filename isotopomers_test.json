@@ -82,8 +82,8 @@
                     "isotope": "1H",
                     "isotropic_chemical_shift": "5.6 ppm",
                     "shielding_symmetric": {
-                        "anisotropy": "13.2 ppm",
-                        "asymmetry": 0.0
+                        "zeta": "13.2 ppm",
+                        "eta": 0.0
                     }
                 }
             ]
