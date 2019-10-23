@@ -1,0 +1,30 @@
+{"isotopomers" : [
+    {
+        "name": "Q2 (1)",
+        "sites": [
+            {
+                "isotope": "29Si",
+                "isotropic_chemical_shift": "-85.1 ppm",
+                "shielding_symmetric": {
+                    "zeta": "-49.1 ppm",
+                    "eta": 0.7
+                }
+            }
+        ],
+        "abundance": "100 %"
+    },
+    {   "name": "Q2 (2)",
+        "sites": [
+            {
+                "isotope": "29Si",
+                "isotropic_chemical_shift": "-86.5 ppm",
+                "shielding_symmetric": {
+                    "zeta": "-61.1 ppm",
+                    "eta": 0.66
+                }
+            }
+        ],
+    "abundance": "100 %"
+    }
+]
+}
