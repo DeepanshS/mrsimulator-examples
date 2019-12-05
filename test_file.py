@@ -26,7 +26,7 @@ dimension = {
 }
 
 sim = Simulator()
-sim.isotopomers = [Isotopomer.parse_dict_with_units(item) for item in Isotopomers]
+sim.isotopomers = [Isotopomer.parse_dict_with_units(item) for item in isotopomers]
 sim.dimensions = [Dimension.parse_dict_with_units(dimension)]
 
 freq1, amp1 = sim.run(one_d_spectrum)
