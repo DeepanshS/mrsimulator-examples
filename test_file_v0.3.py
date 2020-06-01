@@ -1,8 +1,8 @@
-from mrsimulator import Simulator, Isotopomer
+from mrsimulator import Simulator, SpinSystem
 from mrsimulator.methods import BlochDecaySpectrum
 import matplotlib.pyplot as plt
 
-Isotopomers = [
+spin_systems = [
     {
         "sites": [
             {
@@ -36,7 +36,7 @@ method2 = {
 
 
 sim = Simulator()
-sim.isotopomers = [Isotopomer.parse_dict_with_units(item) for item in Isotopomers]
+sim.isotopomers = [SpinSystem.parse_dict_with_units(item) for item in spin_systems]
 sim.methods = [
     BlochDecaySpectrum.parse_dict_with_units(method1),
     BlochDecaySpectrum.parse_dict_with_units(method2),
