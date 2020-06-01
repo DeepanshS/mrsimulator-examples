@@ -36,7 +36,7 @@ method2 = {
 
 
 sim = Simulator()
-sim.isotopomers = [SpinSystem.parse_dict_with_units(item) for item in spin_systems]
+sim.spin_systems = [SpinSystem.parse_dict_with_units(item) for item in spin_systems]
 sim.methods = [
     BlochDecaySpectrum.parse_dict_with_units(method1),
     BlochDecaySpectrum.parse_dict_with_units(method2),
