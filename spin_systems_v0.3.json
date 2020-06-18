@@ -1,92 +1,74 @@
-{
-    "spin_systems": [
-        {
-            "sites": [
-                {
-                    "isotope": "13C",
-                    "isotropic_chemical_shift": "1 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "-3.89 ppm",
-                        "eta": 0.25
-                    }
-                }
-            ],
-            "abundance": "100 %"
-        },
-        {
-            "sites": [
-                {
-                    "isotope": "13C",
-                    "isotropic_chemical_shift": "1 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "8.2 ppm",
-                        "eta": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "sites": [
-                {
-                    "isotope": "1H",
-                    "isotropic_chemical_shift": "3 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "23.2 ppm",
-                        "eta": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Q3",
-            "sites": [
-                {
-                    "isotope": "29Si",
-                    "isotropic_chemical_shift": "-100 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "1.36 ppm",
-                        "eta": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Q3",
-            "sites": [
-                {
-                    "isotope": "29Si",
-                    "isotropic_chemical_shift": "-100 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "70.36 ppm",
-                        "eta": 0.0
-                    }
-                }
-            ]
-        },
-        {
-            "name": "Q2",
-            "sites": [
-                {
-                    "isotope": "29Si",
-                    "isotropic_chemical_shift": "-90 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "80.36 ppm",
-                        "eta": 0.5
-                    }
-                }
-            ]
-        },
-        {
-            "sites": [
-                {
-                    "isotope": "1H",
-                    "isotropic_chemical_shift": "5.6 ppm",
-                    "shielding_symmetric": {
-                        "zeta": "13.2 ppm",
-                        "eta": 0.0
-                    }
-                }
-            ]
+[{
+    "sites": [{
+        "isotope": "13C",
+        "isotropic_chemical_shift": "1 ppm",
+        "shielding_symmetric": {
+            "zeta": "-3.89 ppm",
+            "eta": 0.25
         }
-    ]
-}
+    }],
+    "abundance": "100 %"
+},
+{
+    "sites": [{
+        "isotope": "13C",
+        "isotropic_chemical_shift": "1 ppm",
+        "shielding_symmetric": {
+            "zeta": "8.2 ppm",
+            "eta": 0.0
+        }
+    }]
+},
+{
+    "sites": [{
+        "isotope": "1H",
+        "isotropic_chemical_shift": "3 ppm",
+        "shielding_symmetric": {
+            "zeta": "23.2 ppm",
+            "eta": 0.0
+        }
+    }]
+},
+{
+    "name": "Q3",
+    "sites": [{
+        "isotope": "29Si",
+        "isotropic_chemical_shift": "-100 ppm",
+        "shielding_symmetric": {
+            "zeta": "1.36 ppm",
+            "eta": 0.0
+        }
+    }]
+},
+{
+    "name": "Q3",
+    "sites": [{
+        "isotope": "29Si",
+        "isotropic_chemical_shift": "-100 ppm",
+        "shielding_symmetric": {
+            "zeta": "70.36 ppm",
+            "eta": 0.0
+        }
+    }]
+},
+{
+    "name": "Q2",
+    "sites": [{
+        "isotope": "29Si",
+        "isotropic_chemical_shift": "-90 ppm",
+        "shielding_symmetric": {
+            "zeta": "80.36 ppm",
+            "eta": 0.5
+        }
+    }]
+},
+{
+    "sites": [{
+        "isotope": "1H",
+        "isotropic_chemical_shift": "5.6 ppm",
+        "shielding_symmetric": {
+            "zeta": "13.2 ppm",
+            "eta": 0.0
+        }
+    }]
+}]
